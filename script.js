@@ -2,6 +2,7 @@
 
 function palindrome(str){
 	let l=0, r = str.length-1;
+	str = str.toLowerCase();
 	while(l < r){
 		if(str.charAt(l) === str.charAt(r)){
 			l++;
